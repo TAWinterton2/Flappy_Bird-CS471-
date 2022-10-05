@@ -5,13 +5,13 @@ using UnityEngine;
 public class Obstacle : MonoBehaviour
 {
     public   GameObject Thing;
-    public float speed = -2;
+    public float speed;
 
 
     // Start is called before the first frame update
     void Start()
     {
-       //Thing = getComponent<GameObject>();
+      
     }
 
     // Update is called once per frame
