@@ -14,7 +14,6 @@ public class Obstacle : MonoBehaviour
     {
         wall = this.GetComponent<Rigidbody2D>();
         wall.velocity = new Vector2(-speed, 0);
-        screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
     }
 
     // Update is called once per frame
