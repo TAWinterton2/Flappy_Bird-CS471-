@@ -4,24 +4,21 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    public   GameObject Thing;
     public float speed;
+    private Rigidbody2D wall;
+    private Vector2 screenBounds;
 
 
     // Start is called before the first frame update
     void Start()
     {
-      
+        wall = this.GetComponent<Rigidbody2D>();
+        wall.velocity = new Vector2(-speed, 0);
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(speed * Time.deltaTime, 0, 0);
-        if(transform.position.x < -7)
-        {
-            Thing.transform.position = new Vector3(7, Thing.transform.position.y, Thing.transform.position.z);
-        }
-
+        
     }
 }

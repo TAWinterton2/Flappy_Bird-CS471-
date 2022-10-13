@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8028051377462876806
+--- !u!1 &4609131655522563669
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8028051377462876807}
-  - component: {fileID: 8028051377462876800}
-  - component: {fileID: 8028051377462876801}
+  - component: {fileID: 4609131655522563668}
+  - component: {fileID: 4609131655522563666}
+  - component: {fileID: 4609131655522563667}
   m_Layer: 0
   m_Name: 'Obstacle '
   m_TagString: Untagged
@@ -18,27 +18,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8028051377462876807
+--- !u!4 &4609131655522563668
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8028051377462876806}
+  m_GameObject: {fileID: 4609131655522563669}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.008273111, y: -1.5450492, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 8028051377958973450}
+  m_Father: {fileID: 4609131655929896249}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &8028051377462876800
+--- !u!212 &4609131655522563666
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8028051377462876806}
+  m_GameObject: {fileID: 4609131655522563669}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -83,13 +83,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8028051377462876801
+--- !u!61 &4609131655522563667
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8028051377462876806}
+  m_GameObject: {fileID: 4609131655522563669}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -109,7 +109,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!1 &8028051377958973454
+--- !u!1 &4609131655929896253
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,39 +117,41 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8028051377958973450}
-  - component: {fileID: 8028051377958973449}
-  - component: {fileID: 8028051377958973448}
-  - component: {fileID: 8028051377958973455}
+  - component: {fileID: 4609131655929896249}
+  - component: {fileID: 4609131655929896250}
+  - component: {fileID: 4609131655929896251}
+  - component: {fileID: 4609131655929896252}
+  - component: {fileID: 4609131655929896248}
+  - component: {fileID: -6876953643058416018}
   m_Layer: 0
-  m_Name: Obstacle  (1)
+  m_Name: Obstacle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8028051377958973450
+--- !u!4 &4609131655929896249
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8028051377958973454}
+  m_GameObject: {fileID: 4609131655929896253}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.27, y: 4.6271, z: 0}
-  m_LocalScale: {x: 1.2087052, y: 6.2180343, z: 1}
+  m_LocalPosition: {x: 13.64, y: 3.42, z: 0}
+  m_LocalScale: {x: 1, y: 5.1444583, z: 1}
   m_Children:
-  - {fileID: 8028051377462876807}
+  - {fileID: 4609131655522563668}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &8028051377958973449
+--- !u!212 &4609131655929896250
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8028051377958973454}
+  m_GameObject: {fileID: 4609131655929896253}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -194,13 +196,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8028051377958973448
+--- !u!61 &4609131655929896251
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8028051377958973454}
+  m_GameObject: {fileID: 4609131655929896253}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -220,17 +222,50 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &8028051377958973455
+--- !u!114 &4609131655929896252
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8028051377958973454}
+  m_GameObject: {fileID: 4609131655929896253}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d3f9de05cefdce242b69c713547d93bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Thing: {fileID: 8028051377958973454}
-  speed: 1
+  speed: 5
+--- !u!50 &4609131655929896248
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4609131655929896253}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &-6876953643058416018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4609131655929896253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3f9de05cefdce242b69c713547d93bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
