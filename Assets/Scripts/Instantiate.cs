@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static Bird;
 
 public class Instantiate : MonoBehaviour
 {
@@ -24,7 +25,7 @@ public class Instantiate : MonoBehaviour
         time = time + 1f * Time.deltaTime;
 
         //Spawn wall every 3 seconds
-        if(time >= timeDelay)
+        if(time >= timeDelay && !gameOver)
         {
             time = 0f;
             Instantiate(wall, spawnPoint.position, spawnPoint.rotation);

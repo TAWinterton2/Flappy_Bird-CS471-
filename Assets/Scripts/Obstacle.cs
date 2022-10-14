@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static Bird;
 
 public class Obstacle : MonoBehaviour
 {
@@ -19,6 +20,18 @@ public class Obstacle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (gameOver)
+        {
+            this.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Hole" || collision.gameObject.tag == "Wall")
+        {
+            Physics2D.IgnoreCollision(collision.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        }
+
     }
 }
